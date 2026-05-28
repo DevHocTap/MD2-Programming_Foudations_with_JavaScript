@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 200px;
+  justify-content: center;
+  background-color: #f4f4f4;
+  display: flex;
+  transition: background-color 0.3s ease;
+
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 12px;
+    .color-infor {
+      font-size: 18px;
+      margin: 20px 0;
+      color: #555;
+    }
+    #change-btn {
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #222;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s;
+    }
+    #change-btn:hover {
+      background-color: #444;
+      transform: translateY(-2px);
+    }
+    #change-btn:active {
+      transform: translateY(0);
+    }
+  }
+}
